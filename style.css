@@ -1,0 +1,113 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+body {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start
+}
+.main {
+  margin-top: 40px;
+  width: 620px;
+  height: 720px;
+  background-color: darkcyan;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.blocks {
+  margin-top: 24px;
+  width: 80%;
+  height: 120px;
+  background-color: rgb(9, 181, 194);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.inp-css {
+  aspect-ratio: 1/1;
+  width: 42px;
+  border-radius: 18px;
+  background-color: rgb(112, 200, 216);
+  margin: 4px;
+  border: solid 4px rgb(150, 150, 150);
+  font-size: 42px;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+.add {
+  margin-top: 24px;
+  width: 80%;
+  height: 140px;
+  background-color: rgb(9, 181, 194);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.solution {
+  margin-top: 24px;
+  width: 80%;
+  background-color: rgb(9, 181, 194);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+}
+.letters {
+  padding: 6px;
+  margin-top: 24px;
+  aspect-ratio: 25/10;
+  width: 80%;
+  background-color: rgb(9, 181, 194);
+  border-radius: 8px;
+  display: grid;
+  gap: 6px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(20, 18px);
+  justify-content:center;
+  align-items: center;
+}
+.text-css {
+  width: 80%;
+  min-height: 140px;
+  padding-left: 18px;
+}
+.add-btn,
+.solve-btn {
+  aspect-ratio: 2/1;
+  width: 100px;
+  border-radius: 8px;
+  border: solid 3px rgb(100, 100, 100);
+  font-size: 42px;
+  margin: 10px;
+}
+.letter {
+  margin: 0px;
+  aspect-ratio: 1/1;
+  width: 38px;
+  border-radius: 8px;
+  border: solid green 2px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: lightcoral;
+  grid-column: span 2;
+}
+.hidden {
+  grid-column: span 1;
+  aspect-ratio: 1/1;
+  width: 0px;
+  margin: 0px;
+}
