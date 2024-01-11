@@ -12,7 +12,7 @@ body {
 }
 .main {
   margin-top: 40px;
-  width: 620px;
+  width: 520px;
   height: 720px;
   background-color: darkcyan;
   border-radius: 14px;
@@ -23,7 +23,8 @@ body {
 }
 .blocks {
   margin-top: 24px;
-  width: 80%;
+  min-width: 80%;
+  max-width: 120%;
   height: 120px;
   background-color: rgb(9, 181, 194);
   border-radius: 8px;
@@ -32,12 +33,12 @@ body {
   align-items: center;
 }
 .inp-css {
-  aspect-ratio: 1/1;
-  width: 42px;
-  border-radius: 18px;
+  width: 30px;
+  height: 30px;
+  border-radius: 14px;
   background-color: rgb(112, 200, 216);
-  margin: 4px;
-  border: solid 4px rgb(150, 150, 150);
+  margin: 3px;
+  border: solid 3px rgb(150, 150, 150);
   font-size: 42px;
   color: black;
   font-weight: bold;
@@ -66,14 +67,14 @@ body {
 .letters {
   padding: 6px;
   margin-top: 24px;
-  aspect-ratio: 25/10;
+  aspect-ratio: 30/10;
   width: 80%;
   background-color: rgb(9, 181, 194);
   border-radius: 8px;
   display: grid;
   gap: 6px;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: repeat(20, 18px);
+  grid-template-columns: repeat(20, 15px);
   justify-content:center;
   align-items: center;
 }
@@ -94,7 +95,7 @@ body {
 .letter {
   margin: 0px;
   aspect-ratio: 1/1;
-  width: 38px;
+  width: 32px;
   border-radius: 8px;
   border: solid green 2px; 
   display: flex;
